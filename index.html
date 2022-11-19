@@ -19,6 +19,7 @@
             margin: 0;
             padding: 0;
         }
+
         .main {
             width: 100%;
             height: 100%;
@@ -29,7 +30,7 @@
             background-color: rgb(67, 67, 67);
         }
 
-        .main a{
+        .main a {
             margin: 100px;
             text-decoration: none;
             font-size: 5em;
@@ -38,8 +39,20 @@
             padding: 15px;
         }
 
-        .main a:hover{
+        .main a:hover {
             background-color: rgb(158, 144, 126);
+        }
+
+        @media (max-width: 768px) {
+            .main a {
+                margin: 25px;
+            }
+        }
+
+        @media (max-width: 620px) {
+            .main {
+                flex-direction: column;
+            }
         }
     </style>
 </body>
