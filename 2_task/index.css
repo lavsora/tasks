@@ -20,7 +20,6 @@ body {
     font-family: 'Inter', sans-serif;
     color: #E4E5EA;
     background: #0E1014;
-    overflow-x: hidden;
 }
 
 body > * {
@@ -888,6 +887,13 @@ ul {
 
 .button:disabled {
     opacity: 0.5;
+}
+
+.bg-block {
+    position: absolute;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
 }
 
 .red-ligth {
